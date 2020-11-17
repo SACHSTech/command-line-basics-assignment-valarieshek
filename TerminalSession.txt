@@ -1,1 +1,37 @@
-
+OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
+ pwd
+/home/runner/command-line-basics-assignment-valarieshek
+ mkdir LinuxExercise
+ ls
+LinuxExercise  README.md  TerminalSession.txt
+ cd LinuxExercise/
+ pwd
+/home/runner/command-line-basics-assignment-valarieshek/LinuxExercise
+ touch myfile.txt
+ ls
+myfile.txt
+ echo this is my new file >> myfile.txt
+ cat myfile.txt 
+this is my new file
+ ls
+myfile.txt
+ cp myfile.txt myfile_copy.txt
+ ls
+myfile_copy.txt  myfile.txt
+ mv myfile_copy.txt myfile2.txt
+ ls
+myfile2.txt  myfile.txt
+ mv myfile2.txt ~
+ ls
+myfile.txt
+ pwd
+/home/runner/command-line-basics-assignment-valarieshek/LinuxExercise
+ ls
+myfile.txt
+ rm myfile.txt 
+ ls
+ cd ..
+ rm -r LinuxExercise/
+ ls
+README.md  TerminalSession.txt
+ 
